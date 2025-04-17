@@ -13,6 +13,10 @@ The first version of a THPL (Temperature, Humidity, Pressure, Light) logger comb
 ### BmC_THPL_Logger_v1.1
 An enhanced THPL logger that formats timestamps manually and enters deep sleep for 10 minutes between readings. It logs temperature, humidity, pressure, and light data to microSD in CSV format.
 
+## DataloggerNano
+
+A microSD datalogger sketch for Arduino Nano that reads humidity and temperature from a DHT22 sensor, timestamps each entry using a DS1307 RTC, and writes CSV entries (datalog.csv) to the SD card every minute, with an LED status indicator.
+
 ### DHT11_VEML7700-tests-v1
 A demonstration of DHT11 temperature/humidity and VEML7700 light sensors driving an I2C LCD and serial output, showcasing real-time sensor reading and display.
 
