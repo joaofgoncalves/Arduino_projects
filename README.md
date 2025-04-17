@@ -2,6 +2,7 @@
 
 This repository contains a collection of Arduino sketches and experiments demonstrating sensor integration, data logging, and low-power techniques. You'll find projects interfacing with environmental sensors (BME280, DHT11, DS18B20, SHT4x, VEML7700, BH1750), real-time clocks, microSD logging, and custom circuitry such as a rock conductivity meter.
 
+
 ## Projects
 
 ### BME280_Logger_tests
@@ -13,8 +14,7 @@ The first version of a THPL (Temperature, Humidity, Pressure, Light) logger comb
 ### BmC_THPL_Logger_v1.1
 An enhanced THPL logger that formats timestamps manually and enters deep sleep for 10 minutes between readings. It logs temperature, humidity, pressure, and light data to microSD in CSV format.
 
-## DataloggerNano
-
+### DataloggerNano
 A microSD datalogger sketch for Arduino Nano that reads humidity and temperature from a DHT22 sensor, timestamps each entry using a DS1307 RTC, and writes CSV entries (datalog.csv) to the SD card every minute, with an LED status indicator.
 
 ### DHT11_VEML7700-tests-v1
